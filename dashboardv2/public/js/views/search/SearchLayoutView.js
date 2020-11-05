@@ -47,6 +47,7 @@ define(['require',
                 searchType: 'input[name="queryType"]',
                 searchBtn: '[data-id="searchBtn"]',
                 clearSearch: '[data-id="clearSearch"]',
+                printBtn: '[data-id="printButton"]',
                 typeLov: '[data-id="typeLOV"]',
                 tagLov: '[data-id="tagLOV"]',
                 termLov: '[data-id="termLOV"]',
@@ -72,6 +73,7 @@ define(['require',
                 events["change " + this.ui.searchType] = 'dslFulltextToggle';
                 events["click " + this.ui.searchBtn] = 'findSearchResult';
                 events["click " + this.ui.clearSearch] = 'clearSearchData';
+                events["click " + this.ui.printBtn] = 'printMessage';
                 events["change " + this.ui.typeLov] = 'checkForButtonVisiblity';
                 events["change " + this.ui.tagLov] = 'checkForButtonVisiblity';
                 events["change " + this.ui.termLov] = 'checkForButtonVisiblity';
@@ -841,6 +843,9 @@ define(['require',
                     mergeBrowserUrl: false,
                     trigger: true
                 });
+            },
+            printMessage: function() {
+                alert("Print button works!");
             }
         });
     return SearchLayoutView;
