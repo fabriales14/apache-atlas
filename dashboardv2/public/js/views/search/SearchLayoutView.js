@@ -53,7 +53,8 @@ define(['require',
                 refreshBtn: '[data-id="refreshBtn"]',
                 advancedInfoBtn: '[data-id="advancedInfo"]',
                 typeAttrFilter: '[data-id="typeAttrFilter"]',
-                tagAttrFilter: '[data-id="tagAttrFilter"]'
+                tagAttrFilter: '[data-id="tagAttrFilter"]',
+                tagFilter: '[data-id="tagFilter"]'
             },
 
             /** ui events hash */
