@@ -157,7 +157,7 @@ define(['require',
                 this.multiSelectEntity = [];
                 this.searchType = 'Basic Search';
                 this.columnOrder = null;
-                this.defaultColumns = ["selected", "name", "description", "typeName", "owner", "tag", "term"];
+                this.defaultColumns = ["selected", "name", "description", "typeName", "owner", "tag", "term", "new-column"];
                 if (this.value) {
                     if (this.value.searchType && this.value.searchType == 'dsl') {
                         this.searchType = 'Advanced Search';

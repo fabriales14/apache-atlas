@@ -54,7 +54,6 @@ define(['require',
                 advancedInfoBtn: '[data-id="advancedInfo"]',
                 typeAttrFilter: '[data-id="typeAttrFilter"]',
                 tagAttrFilter: '[data-id="tagAttrFilter"]',
-                tagFilter: '[data-id="tagFilter"]'
             },
 
             /** ui events hash */
